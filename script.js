@@ -42,7 +42,7 @@ setTimeout(function(){
 
 setTimeout(function () {
   window.scrollTo({
-    top: 1000,
+    top: document.body.scrollHeight,
     behavior: 'smooth'
   });
 }, 7000)
