@@ -3,6 +3,10 @@
     src: url("./asset/Digi Nofar Bold.ttf");
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html{
     overflow-x: hidden;
 }
@@ -60,20 +64,78 @@ img#skater{
     width: 400px;
     height: 400px;
     position: absolute;
-    left: 35vw;
+    left: 60vw;
     top: 40vh;
     background: transparent;
 }
 
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-left {
+    flex: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.flex-item-right {
+    flex: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+    }
+
+    section .splide__slide {
+        align-content: center;
+        width: 90vw !important;
+    }
+
+    div#faraz img {
+        width: 80vw !important;
+    }
+
+    div#amir img {
+        width: 80vw !important;
+        left: 15% !important;
+        top: 10% !important;
+    }
+
+    div#faraz {
+        padding-top: 100px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    div#amir {
+        padding-top: 100px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+div#faraz {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+div#amir {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
 /* Faraz */
 div#faraz p{
-    font-size: 2.5em;
-    position: absolute;
-    /* margin: 40px; */
-    padding: 40px;
-    left: 46%;
-    top: 30%;
-   
+    font-size: 3em;
+    text-align: center;
     background: transparent;
 }
 
@@ -82,20 +144,14 @@ div#faraz img {
     border-radius: 50%;
     width: 20vw;
     height: auto;
-    position: absolute;
-    left: 15%;
-    top: 30%;
     background: transparent;
 }
 
 /* Amir */
 div#amir p{
-    /* margin: 40px; */
     padding: 40px;
-    font-size: 2.5em;
-    position: absolute;
-    left: 30%;
-    top: 65%;
+    font-size: 3em;
+    text-align: center;
     background: transparent;
 }
 
@@ -104,8 +160,5 @@ div#amir img {
     border-radius: 50%;
     width: 20vw;
     height: auto;
-    position: absolute;
-    left: 55%;
-    top: 30%;
     background: transparent;
 }

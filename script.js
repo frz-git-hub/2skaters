@@ -13,17 +13,17 @@ var faraztypewriter = new Typewriter(faraz, {
 
 faraztypewriter.typeString('سلام من فرازم  و').start();
 
-new LeaderLine(
-  document.querySelector('div#faraz p'),
-  document.querySelector('div#faraz img'),
-  {
-    color: "#fff",
-    size: 5,
-    startSocket: 'bottom', 
-    endPlug: 'hand',
-    dash: { animation: true }
-  }
-);
+// new LeaderLine(
+//   document.querySelector('div#faraz p'),
+//   document.querySelector('div#faraz img'),
+//   {
+//     color: "#fff",
+//     size: 5,
+//     startSocket: 'bottom', 
+//     endPlug: 'hand',
+//     dash: { animation: true }
+//   }
+// );
 
 // Amir
 var amir = document.querySelector('div#amir p');
@@ -47,17 +47,17 @@ setTimeout(function () {
   });
 }, 7000)
 
-new LeaderLine(
-  document.querySelector('div#amir p'),
-  document.querySelector('div#amir img'),
-  { 
-    color: "#fff", 
-    size: 5, 
-    startSocket: 'top', 
-    endPlug: 'hand', 
-    dash: { animation: true } 
-  }
-);
+// new LeaderLine(
+//   document.querySelector('div#amir p'),
+//   document.querySelector('div#amir img'),
+//   { 
+//     color: "#fff", 
+//     size: 5, 
+//     startSocket: 'top', 
+//     endPlug: 'hand', 
+//     dash: { animation: true } 
+//   }
+// );
 
 const splide = new Splide('.splide', {
   type: 'loop',
