@@ -29,6 +29,7 @@ body > div{
 }
 
 section{
+    margin-top: 300px;
     height: 500px;
 }
 
@@ -68,8 +69,8 @@ img#skater{
 div#faraz p{
     font-size: 2.5em;
     position: absolute;
-    margin: 40px;
-    padding: 0px;
+    /* margin: 40px; */
+    padding: 40px;
     left: 46%;
     top: 30%;
    
@@ -89,8 +90,8 @@ div#faraz img {
 
 /* Amir */
 div#amir p{
-    margin: 40px;
-    padding: 0px;
+    /* margin: 40px; */
+    padding: 40px;
     font-size: 2.5em;
     position: absolute;
     left: 30%;
