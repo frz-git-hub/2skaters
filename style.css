@@ -44,6 +44,8 @@ section h1{
 
 section .splide__slide{
     align-content: center;
+    border: 1px solid #fff;
+    height: 400px;
 }
 
 section .splide__slide img{
