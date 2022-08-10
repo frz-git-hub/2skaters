@@ -24,7 +24,7 @@ function myFunction() {
 
   req.send();
   
-  // setTimeout(showPage, 5000);
+  setTimeout(showPage, 5000);
 }
 
 function showPage() {
