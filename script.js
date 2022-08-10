@@ -1,9 +1,11 @@
 
 function myFunction() {
+  document.body.style.overflowY = "hidden";
   setTimeout(showPage, 7000);
 }
 
 function showPage() {
+  document.body.style.overflowY = "initial";
   document.getElementById("loader").style.display = "none";
   faraztypewriter.typeString('سلام من فرازم  و').start();
   setTimeout(function () {
