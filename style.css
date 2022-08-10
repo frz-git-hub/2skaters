@@ -82,6 +82,19 @@ section button{
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 }
 
+#loader p{
+    border: none;
+    border-radius: 0%;
+    width: 20rem;
+    height: 5rem;
+    transform: translate(-16%, 160%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: transparent;
+    font-size: 1.5em;
+}
+
 img#skater{ 
     border: none;
     border-radius: 0%;
