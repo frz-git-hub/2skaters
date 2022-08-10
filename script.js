@@ -1,7 +1,7 @@
 
 function myFunction() {
   document.body.style.overflowY = "hidden";
-  setTimeout(showPage, 7000);
+  setTimeout(showPage, 5000);
 }
 
 function showPage() {
