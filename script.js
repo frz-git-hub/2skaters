@@ -9,25 +9,16 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   faraztypewriter.typeString('سلام من فرازم  و').start();
   setTimeout(function () {
-    window.scrollTo({
-      top: 400,
-      behavior: 'smooth'
-    });
+    document.querySelector("div#amir").scrollIntoView({ behavior: 'smooth' }, true)
     amirtypewriter.typeString('با دوستم امیرحسین').start();
   }, 3500)
 
   setTimeout(function () {
-    window.scrollTo({
-      top: document.body.scrollHeight,
-      behavior: 'smooth'
-    });
+    document.querySelector("section").scrollIntoView({ behavior: 'smooth' }, true)
   }, 7000)
 }
 
-window.scrollTo({
-  top: 0,
-  behavior: 'smooth'
-});
+window.scrollTo(0,0);
 
 // Faraz
 var faraz = document.querySelector('div#faraz p');
