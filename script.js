@@ -1,20 +1,21 @@
 
 function myFunction() {
 
-  document.body.style.overflowY = "hidden";
-  var req = new XMLHttpRequest();
-  req.open('GET', './assets/skate.mp4', true);
+  // document.body.style.overflowY = "hidden";
+  // var req = new XMLHttpRequest();
+  // req.open('GET', './assets/skate.mp4', true);
 
-  req.onload = function () {
-    if (this.status === 200) {
-      showPage()
-    }
-  }
-  req.onerror = function () {
-    console.log("Response Error")
-  }
+  // req.onload = function () {
+  //   if (this.status === 200) {
+  //     showPage()
+  //   }
+  // }
+  // req.onerror = function () {
+  //   console.log("Response Error")
+  // }
 
-  req.send();
+  // req.send();
+  setTimeout(showPage, 3000)
 }
 
 function showPage() {
