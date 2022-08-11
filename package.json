@@ -1,0 +1,25 @@
+{
+  "name": "2skaters",
+  "version": "1.0.0",
+  "description": "Skateboard Advertising",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frz-git-hub/SkateAd.git"
+  },
+  "keywords": [
+    "skate"
+  ],
+  "author": "Faraz Hajatdoust",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frz-git-hub/SkateAd/issues"
+  },
+  "homepage": "https://github.com/frz-git-hub/SkateAd#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
