@@ -15,7 +15,6 @@ function myFunction() {
   }
 
   req.send();
-  // setTimeout(showPage, 1000)
 }
 
 function showPage() {
@@ -28,7 +27,7 @@ function showPage() {
   }, 3500)
 
   setTimeout(function () {
-    document.querySelector("section").scrollIntoView({ behavior: 'smooth', block: "nearest"}, true)
+    document.querySelector("section").scrollIntoView({ behavior: 'smooth', block: "center"}, true)
   }, 7000)
 
   setTimeout(function () {
