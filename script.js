@@ -1,7 +1,8 @@
 
+window.scrollTo(0, 0);
 function myFunction() {
 
-  // document.body.style.overflowY = "hidden";
+  document.body.style.overflowY = "hidden";
   // var req = new XMLHttpRequest();
   // req.open('GET', './assets/skate.mp4', true);
 
@@ -35,8 +36,6 @@ function showPage() {
     document.querySelector("div#links").scrollIntoView({ behavior: 'smooth' }, true)
   }, 11000)
 }
-
-window.scrollTo(0,0);
 
 // Faraz
 var faraz = document.querySelector('div#faraz p');
