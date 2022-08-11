@@ -3,7 +3,7 @@ function myFunction() {
 
   document.body.style.overflowY = "hidden";
   var req = new XMLHttpRequest();
-  req.open('GET', './asset/skate.mp4', true);
+  req.open('GET', './assets/skate.mp4', true);
 
   req.onload = function () {
     if (this.status === 200) {
